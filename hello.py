@@ -1,6 +1,6 @@
 import time
 from datetime import date
-today = date.today()
+today = str(date.today())
 def say_something(something):
     if something:
        print(" ".join(something)[::-1]+today)
